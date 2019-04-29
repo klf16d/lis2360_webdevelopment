@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document created by Kristen Fessler, March 25 2019*/
+
+body {
+	font-family: Georgia, Arial, Verdana, Helvetica, Times, sans-serif;
+	font-size: 12px;
+	line-height: 1.6em;
+	color: #99ebff;
+	background-color: #1482C7;
+	padding: 0 30px;
+	margin: 0;
+}
+
+/* basic text styles ----------------------------  */ 
+p, li, td {
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	color: #FFF;
+}
+/* header styles ----- */ 
+h1 {
+	font-size: 37px;
+	padding: 40px;
+	font-variant: small-caps;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+	margin: 0;
+}
+h2 {
+	font-size: 22px;
+	padding: 20px;
+	font-variant: small-caps;
+	letter-spacing: 0.3em;
+	background-color: #111E6C;
+}
+h3 {
+	font-size: 21px;
+	letter-spacing: 0.3em;
+	background-color: #111E6C;
+	padding: 20px;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color:#000;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #111E6C;
+	text-decoration: none;
+}
+a:hover {
+	color: #99ebff;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 10px;
+	padding: 0 10px;
+}
+ol {
+	margin-left: 15px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #99ebff 1.1px;
+}
+td {
+	padding: 6px;
+	border: solid #99ebff 1.1px;
+}
+th {
+	font-weight: bold;
+	text-align: center;
+	padding: 6px;
+	border: solid #99ebff 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #FFF 1px;
+}
+
+img {
+	border: solid #FFF 0px;
+
+}
+
+iframe {
+	border: solid #99ebff 3px;
+	padding: 8px;
+	margin: 8px;
+}
